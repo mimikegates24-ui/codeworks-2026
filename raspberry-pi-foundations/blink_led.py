@@ -1,7 +1,7 @@
 # traffic lights
 
 from gpiozero import LED
-From time import sleep
+from time import sleep
 
 LedGreen =LED(2)
 LedYellow =LED(4)
@@ -28,3 +28,4 @@ while True:
     LedYellow.off()
     LedOrange.off()
     LedRed.off()
+    sleep(6)
